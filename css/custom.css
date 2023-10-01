@@ -1,0 +1,120 @@
+/* Vos customisations des classes de Bootstrap */
+/* html {
+    scroll-behavior: smooth;
+} */
+
+.nav-link, h1, h2, h3{
+    font-family: Arvo;
+}
+
+#home {
+    background-image:url(../images/hero-image.jpg);
+}
+
+.btn-danger{
+    font-size: 30px;
+}
+
+.fs-custom{
+    font-size: 20px;
+    /* font-weight: 500; */
+}
+
+span {
+    color: red;
+}
+
+.underlineWidth{
+    width: 150px;
+}
+
+.fs-1{
+    font-size: 50px;
+}
+
+.fs-2{
+    font-size: 30px;
+}
+
+.fs-3{
+    font-size: 30px;
+}
+
+.icon-custom2 svg{
+    fill: white;
+}
+
+svg{
+    width: 40px;
+    height: auto;
+}
+
+.icon-bg{
+    border-radius: 100%;
+    background-color: black;
+    width: 90px;
+    height: 90px;
+}
+
+.navbar-dark{
+    background-color: black;
+}
+
+#get-involved{
+    background-color: rgb(236, 236, 236);
+}
+
+.text-danger{
+    color: #e74c3c!important;
+}
+
+.custom-btn{
+    color: #e74c3c!important;
+    border: 2px solid lightgrey;
+}
+
+footer{
+    background-color: #e74c3c;
+    
+}
+
+.modal-body .btn-close{
+    top: 0;
+    right: 0;
+    position: absolute;
+    border: none;
+    border-radius: 0% 0% 0% 50%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#back-to-top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+    .fs-1{
+        font-size: 30px;
+    }
+
+    .container{
+        max-width: none;
+    }
+
+    .bottom-brand{
+        width: 80%;
+        height: auto;
+    }
+}
